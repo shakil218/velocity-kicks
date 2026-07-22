@@ -1,13 +1,30 @@
 # 👟 Velocity Kicks — Responsive Retail Home Page
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-orange?style=for-the-badge&logo=vercel)](https://velocity-kicks-peach.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-slate?style=for-the-badge&logo=github)](https://github.com/shakil218/velocity-kicks)
+
 > **MOH Technology — Frontend Developer Internship Assessment**  
 > *Objective:* Design and develop a highly polished, responsive Home Page for a retail footwear business using React.js.
 
 ---
 
-## 🔗 Live Links
+## 🔗 Live Deliverables
+- **Live Production URL:** [https://velocity-kicks-peach.vercel.app/](https://velocity-kicks-peach.vercel.app/)
 - **GitHub Repository:** [https://github.com/shakil218/velocity-kicks](https://github.com/shakil218/velocity-kicks)
-- **Live Demo Host:** Hosted on Vercel / Netlify
+
+---
+
+## 📌 GitHub Repository "About" Section Setup
+
+To update the **About** section on the top-right side of your GitHub repository page:
+
+1. Go to your repo: [github.com/shakil218/velocity-kicks](https://github.com/shakil218/velocity-kicks)
+2. On the top right side, click the **⚙️ (Gear Icon / Edit)** next to **About**.
+3. Paste the following details:
+   - **Description:** `Velocity Kicks — A highly polished, modern responsive retail footwear storefront built with React.js, Tailwind CSS, & Framer Motion.`
+   - **Website:** `https://velocity-kicks-peach.vercel.app/`
+   - **Topics:** `react`, `tailwindcss`, `vite`, `framer-motion`, `responsive-design`, `footwear-store`
+4. Click **Save changes**.
 
 ---
 
@@ -20,7 +37,7 @@
 - **Quick View Modal:** Interactive pop-up detailing full sneaker descriptions, colorways, US size selection, and stock availability.
 - **Hero / Banner Section:** High-converting hero banner with floating shoe showcase, trust metrics, and action CTAs.
 - **Features & Trust Bar:** Highlighting free express shipping, 100% authentic guarantee, easy returns, and 24/7 support.
-- **Reviews & Testimonials:** authentic customer reviews with rating breakdown and verified badges.
+- **Reviews & Testimonials:** Authentic customer reviews with rating breakdown and verified badges.
 - **Promotional Flash Deal & Newsletter:** 20% discount offer code banner and email subscription mockup with feedback state.
 - **Smooth Animations & Micro-interactions:** Built with **Framer Motion** for mobile drawers, hover zoom, and modal transitions.
 
