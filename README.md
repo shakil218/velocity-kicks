@@ -1,16 +1,101 @@
-# React + Vite
+# 👟 Velocity Kicks — Responsive Retail Home Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **MOH Technology — Frontend Developer Internship Assessment**  
+> *Objective:* Design and develop a highly polished, responsive Home Page for a retail footwear business using React.js.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Links
+- **GitHub Repository:** [https://github.com/shakil218/velocity-kicks](https://github.com/shakil218/velocity-kicks)
+- **Live Demo Host:** Hosted on Vercel / Netlify
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Features Overview
 
-## Expanding the ESLint configuration
+- **Product Showcase (12 Products):** Displays 12 products featuring footwear images, product names, price & discount strikethrough, ratings, review counts, and category tags.
+- **Interactive Search Bar & Filtering:** Real-time search query filtering by sneaker name, description, or tag.
+- **Category Filter Pills:** Instant filter tabs (`All`, `Running`, `Casual`, `Basketball`, `Skateboarding`, `Training`).
+- **Sorting Options:** Sort products by Price (Low to High, High to Low), Highest Rating, or Featured.
+- **Quick View Modal:** Interactive pop-up detailing full sneaker descriptions, colorways, US size selection, and stock availability.
+- **Hero / Banner Section:** High-converting hero banner with floating shoe showcase, trust metrics, and action CTAs.
+- **Features & Trust Bar:** Highlighting free express shipping, 100% authentic guarantee, easy returns, and 24/7 support.
+- **Reviews & Testimonials:** authentic customer reviews with rating breakdown and verified badges.
+- **Promotional Flash Deal & Newsletter:** 20% discount offer code banner and email subscription mockup with feedback state.
+- **Smooth Animations & Micro-interactions:** Built with **Framer Motion** for mobile drawers, hover zoom, and modal transitions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technology Stack & Libraries
+
+- **Framework:** React.js 19
+- **Build Tool:** Vite 8
+- **Styling:** Tailwind CSS v4 + Custom Glassmorphism & Glow Utilities
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Typography:** Google Fonts (*Plus Jakarta Sans* & *Space Grotesk*)
+
+---
+
+## 📂 Project Component Architecture
+
+```
+src/
+├── assets/                  # Static assets & images
+├── components/
+│   ├── common/              # Atomic reusable elements
+│   │   ├── Badge.jsx
+│   │   ├── Button.jsx
+│   │   ├── RatingStars.jsx
+│   │   └── SearchInput.jsx
+│   ├── layout/              # Structural headers & footers
+│   │   ├── Navbar.jsx       # Glassmorphism header & mobile drawer menu
+│   │   └── Footer.jsx       # Responsive multi-column footer
+│   ├── product/             # Product showcase modules
+│   │   ├── CategoryFilter.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductGrid.jsx
+│   │   └── ProductQuickViewModal.jsx
+│   └── sections/            # Landing page sections
+│       ├── Hero.jsx
+│       ├── FeaturesBar.jsx
+│       ├── PromoBanner.jsx
+│       ├── ReviewsSection.jsx
+│       └── NewsletterSection.jsx
+├── data/
+│   └── products.js          # Static dataset of 12 retail sneakers
+├── hooks/
+│   └── useProductFilter.js  # Custom React hook for category, search, & wishlist state
+└── App.jsx                  # Main page composer
+```
+
+---
+
+## 💻 Local Development Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shakil218/velocity-kicks.git
+   cd velocity-kicks
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🎨 Design & Assessment Compliance
+- **Responsive Layout:** Tested & verified across Mobile (`375px`), Tablet (`768px`), and Desktop (`1280px+`).
+- **Static Mockup Constraint:** Adheres strictly to evaluation constraints — state changes (filtering, search, modal toggle, wishlist) operate client-side without external backend dependencies.
