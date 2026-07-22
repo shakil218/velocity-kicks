@@ -1,0 +1,196 @@
+export const CATEGORIES = [
+  "All",
+  "Running",
+  "Casual",
+  "Basketball",
+  "Skateboarding",
+  "Training",
+];
+
+export const PRODUCTS = [
+  {
+    id: 1,
+    name: "Air Jordan Retro High OG",
+    category: "Basketball",
+    price: 180.00,
+    originalPrice: 210.00,
+    rating: 4.9,
+    reviewsCount: 128,
+    isNew: true,
+    tag: "Trending",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+    description: "Iconic high-top basketball sneaker built with premium leather, cushioned Air-Sole unit, and timeless court style.",
+    colors: ["Red/White", "Black/Red"]
+  },
+  {
+    id: 2,
+    name: "Ultraboost Light Running Shoes",
+    category: "Running",
+    price: 149.99,
+    originalPrice: 190.00,
+    rating: 4.8,
+    reviewsCount: 94,
+    isNew: false,
+    tag: "Best Seller",
+    image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?q=80&w=800&auto=format&fit=crop",
+    description: "Lightweight performance running shoe featuring responsive Boost midsole tech and Primeknit upper fit.",
+    colors: ["White/Blue", "Core Black"]
+  },
+  {
+    id: 3,
+    name: "Urban Minimalist Canvas Low",
+    category: "Casual",
+    price: 79.99,
+    originalPrice: 95.00,
+    rating: 4.6,
+    reviewsCount: 62,
+    isNew: true,
+    tag: "New Arrival",
+    image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=800&auto=format&fit=crop",
+    description: "Clean everyday lifestyle sneaker crafted with breathable organic canvas and flexible vulcanized rubber sole.",
+    colors: ["Off White", "Olive Green"]
+  },
+  {
+    id: 4,
+    name: "Metcon 9 Cross-Training Shoe",
+    category: "Training",
+    price: 135.00,
+    originalPrice: 150.00,
+    rating: 4.7,
+    reviewsCount: 81,
+    isNew: false,
+    tag: "Hot",
+    image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=800&auto=format&fit=crop",
+    description: "Engineered for lifting and cardio strength sessions with an expanded Hyperlift plate and rubber rope wrap.",
+    colors: ["Smoke Grey", "Triple Black"]
+  },
+  {
+    id: 5,
+    name: "SB Dunk Low Pro Skate",
+    category: "Skateboarding",
+    price: 115.00,
+    originalPrice: 130.00,
+    rating: 4.9,
+    reviewsCount: 156,
+    isNew: true,
+    tag: "Limited Edition",
+    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
+    description: "Skate-ready classic with Zoom Air heel unit, padded collar, and durable suede overlays for board grip.",
+    colors: ["Teal/White", "Gum Sole"]
+  },
+  {
+    id: 6,
+    name: "Cloudstride Max Cushioner",
+    category: "Running",
+    price: 165.00,
+    originalPrice: 185.00,
+    rating: 4.8,
+    reviewsCount: 43,
+    isNew: true,
+    tag: "Top Rated",
+    image: "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=800&auto=format&fit=crop",
+    description: "Ultra-plush long distance road runner with maximum stack height foam and rocker geometry transition.",
+    colors: ["Bright Neon", "Slate Grey"]
+  },
+  {
+    id: 7,
+    name: "Retro Court Heritage Suede",
+    category: "Casual",
+    price: 99.99,
+    originalPrice: 120.00,
+    rating: 4.5,
+    reviewsCount: 37,
+    isNew: false,
+    tag: "15% OFF",
+    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
+    description: "70s tennis-inspired casual shoe built with soft pigskin suede and clean perforated branding details.",
+    colors: ["Vintage Cream", "Navy Blue"]
+  },
+  {
+    id: 8,
+    name: "LeBron NXXT Gen Court",
+    category: "Basketball",
+    price: 170.00,
+    originalPrice: 200.00,
+    rating: 4.8,
+    reviewsCount: 74,
+    isNew: false,
+    tag: "Featured",
+    image: "https://images.unsplash.com/photo-1579338559194-a162d19bf842?q=80&w=800&auto=format&fit=crop",
+    description: "Multidirectional traction grid with forefoot Zoom Turbo cushioning built for speed and power on court.",
+    colors: ["Purple/Gold", "Triple White"]
+  },
+  {
+    id: 9,
+    name: "VaporFly Next% Speed Racer",
+    category: "Running",
+    price: 220.00,
+    originalPrice: 250.00,
+    rating: 4.9,
+    reviewsCount: 112,
+    isNew: true,
+    tag: "Pro Series",
+    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=800&auto=format&fit=crop",
+    description: "Carbon-fiber plated marathon race shoe designed for ultimate energy return and race day record chasing.",
+    colors: ["Volt Green", "Electric Pink"]
+  },
+  {
+    id: 10,
+    name: "Old School High-Top Vulcanized",
+    category: "Skateboarding",
+    price: 85.00,
+    originalPrice: 95.00,
+    rating: 4.7,
+    reviewsCount: 89,
+    isNew: false,
+    tag: "Classic",
+    image: "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=800&auto=format&fit=crop",
+    description: "High-top canvas sneaker featuring reinforced toe caps, padded ankle collar, and signature waffle outsole.",
+    colors: ["Black/White", "All Black"]
+  },
+  {
+    id: 11,
+    name: "FlexMotion Gym Trainer",
+    category: "Training",
+    price: 110.00,
+    originalPrice: 130.00,
+    rating: 4.4,
+    reviewsCount: 29,
+    isNew: false,
+    tag: "Sale",
+    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800&auto=format&fit=crop",
+    description: "Versatile gym trainer with multi-surface grip, lateral lockdown straps, and dual-density foam core.",
+    colors: ["Iron Grey", "Red Rush"]
+  },
+  {
+    id: 12,
+    name: "Streetwise Chunky Platform",
+    category: "Casual",
+    price: 125.00,
+    originalPrice: 145.00,
+    rating: 4.6,
+    reviewsCount: 51,
+    isNew: true,
+    tag: "Trending",
+    image: "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?q=80&w=800&auto=format&fit=crop",
+    description: "Bold chunky lifestyle aesthetic with layered multi-material upper and elevated lightweight foam platform.",
+    colors: ["Chalk White", "Pastel Mix"]
+  }
+];
+
+export const MOCK_REVIEWS = [
+  {
+    id: 1,
+    user: "Ahmad R.",
+    rating: 5,
+    comment: "Extremely comfortable and the build quality is top tier! Fits true to size.",
+    date: "2 days ago"
+  },
+  {
+    id: 2,
+    user: "Sarah K.",
+    rating: 5,
+    comment: "The shipping was super fast and the packaging looked premium.",
+    date: "1 week ago"
+  }
+];
